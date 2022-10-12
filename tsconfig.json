@@ -8,15 +8,9 @@
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ],
+    "lib": ["ESNext", "DOM"],
     "skipLibCheck": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
